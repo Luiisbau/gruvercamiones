@@ -1,0 +1,134 @@
+.custom-margin {
+  margin-right: 0rem;
+  margin-left: 15rem;
+}
+
+.home {
+  margin-left: 0rem;
+}
+
+.texto-home {
+  color: black;
+  margin-right: -5rem;
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+}
+
+.texto-home.no-underline {
+  text-decoration: none; /* Quita el subrayado */
+}
+
+.background-container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(to bottom, #ffffff, #545454);
+  background-size: cover;
+}
+
+.center-text h2{
+  color: black;
+  font-family: 'Arial', sans-serif;
+  margin-top: 5rem;
+}
+
+.center-text{
+  background-color: #ffffff;
+  color: gray;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  margin-top: 2rem; /* Ajusta el margen superior */
+  font-size: 1.8rem;
+}
+
+.horizontal-line {
+  width: 70rem; /* Ajusta la longitud de la línea */
+  border-bottom: 0.01rem solid rgb(139, 139, 204); /* Ajusta el color y grosor de la línea */
+  margin: 10px auto; /* Ajusta el margen superior e inferior y centra la línea horizontalmente */
+}
+
+.text_inner{
+  text-align: center;
+  color: gray;
+  font-size: 1.2rem;
+  font-family: 'Arial', sans-serif;
+  margin-left: 11rem;
+  margin-right: 11rem;
+  margin-top: 2rem;
+}
+
+.word-columns {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  margin-top: 2rem;
+  font-size: 1.4rem;
+}
+
+.word-column {
+  flex: 1;
+}
+
+.contenedor {
+  background: linear-gradient(to bottom, #cdcccc, #545454);
+  padding: 22.4rem;
+  text-align: center;
+  width: 25rem;
+  height: 5rem;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.contenedor h1 {
+  display: inline;
+  align-items: center;
+  color: #ffffff; 
+  font-size: 5rem;
+  font-family: 'Arial', sans-serif; /* Cambia la fuente */
+  margin: 0;
+  margin-left: -20rem;
+}
+
+.additional-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between ;
+  margin-top: 0rem;
+  padding: 2rem;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+
+.additional-section h4 {
+  font-size: 18rem;
+}
+
+.additional-section p {
+  font-size: 14rem;
+}
+
+.additional-image {
+  max-width: 25rem; /* Ajusta el tamaño máximo de la imagen */
+
+}
+
+.additional-section a {
+  color: #ffffff;
+}
+
+.additional-button{
+  margin-left: 10rem;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  /* Puedes ajustar el margen según sea necesario */
+}
+
+
